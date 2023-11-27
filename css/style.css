@@ -491,5 +491,21 @@ header.sticky{
     opacity: 1;
 }
 
+.communication-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxs {
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(193, 202, 206) 88, 65;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
 
 
